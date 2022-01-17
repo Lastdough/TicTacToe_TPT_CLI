@@ -165,6 +165,7 @@ void gameLogic(Player player)
         gambarPapan(player.name[(player.turn % 2) ? 0 : 1] + "'s Turn");
         player.turn = (player.turn % 2);
         player.mark = ((player.turn % 2) == 1) ? 'X' : 'O';
+        cin.ignore();
         cin >> player.choice;
         //kondisi if di bawah akan memastikan apakah papan game kosong dan dapat di isi oleh X atau O
         //row 1
