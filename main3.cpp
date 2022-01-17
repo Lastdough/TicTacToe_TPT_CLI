@@ -226,8 +226,10 @@ void gameLogic(Player player)
     }
 }
 
-//fungsi cekMenang akan mengecek berkala apakah status menang dan seri terjadi dan mengembalikan nilai integer sesuai dengan statusnya,
-// jika ada player yg menang fungsi mereturn 1, jika terjadi seri fungsi akan mereturn 2. jika tidak ada yang terjadi fungsi akan mereturn 0.
+/**
+ * fungsi cekMenang akan mengecek berkala apakah status menang dan seri terjadi dan mengembalikan nilai integer sesuai dengan statusnya,
+ * jika ada player yg menang fungsi mereturn 1, jika terjadi seri fungsi akan mereturn 2. jika tidak ada yang terjadi fungsi akan mereturn 0.
+ */
 int cekMenang()
 {
     // vertikal
