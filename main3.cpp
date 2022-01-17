@@ -276,5 +276,3 @@ int cekMenang()
 
     return 0;
 }
-
-
