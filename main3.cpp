@@ -30,8 +30,7 @@ int main(void)
 {
     //deklasrasi variable local di fungsi main
     Player player;
-    char conf;
-
+    char conf; 
     //tampilan menu utama
     cout << "\n\nTic-Tac-Toe\n\n";
     cout << "1) Play\n";
@@ -46,14 +45,14 @@ int main(void)
     case 1:
         do
         {
-            system("cls");
+            system("clear");
             //for loop untuk pemasukan nama Player 1 dan Player 2
             for (int i = 0; i <= 1; i++)
             {
                 cout << "\n\n\tEnter Your Name\n\n";
                 cout << "Player " << i + 1 << " : ";
                 cin >> player.name[i];
-                system("cls");
+                system("clear");
             }
 
             cout << "\n\n";
@@ -90,20 +89,20 @@ int main(void)
                 }
             }
         } while (conf != 'H');
-        system("cls");
+        system("clear");
         main();
         break;
     case 2:
         // about page
         
-        system("cls");
+        system("clear");
         cout << "\t\tTic-Tac-Toe\n\n"
              << "\t\tVersion 1.3\n\n"
              << "Copyright c 2021 Kelompok 7.\nAll Right Reserved\n\n"
              << "Press Enter to return..";
         cin.ignore();
         cin.get();
-        system("cls");
+        system("clear");
         main();
         break;
     case 3:
@@ -113,7 +112,7 @@ int main(void)
         cout << "Error : Please enter a valid number... \n";
         cin.ignore();
         cin.get();
-        system("cls");
+        system("clear");
         main();
         break;
     }
@@ -123,7 +122,7 @@ int main(void)
 // Fungsi Untuk Menggambar papan
 void gambarPapan(string name)
 {
-    system("cls");
+    system("clear");
     cout << "\n\n\tChoose a number between 1 and 9\n\n";
 
     for (int r = 0; r < 3; r++)
