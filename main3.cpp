@@ -1,6 +1,6 @@
 #include <iostream>
-#include <cctype>
 #include <stdlib.h>
+#include <cctype>
 
 
 using namespace std;
